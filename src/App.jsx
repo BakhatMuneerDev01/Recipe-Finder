@@ -1,11 +1,13 @@
-
+import Sidebar from "./components/Sidebar";
+import HomePage from "./components/pages/HomePage";
 
 function App() {
 
 
   return (
-    <div>
-      <h1 className="bg-gray-300">React App</h1>
+    <div className="flex">
+      <Sidebar />
+      <HomePage />
     </div>
   )
 }
